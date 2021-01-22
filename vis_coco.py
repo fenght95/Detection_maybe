@@ -3,8 +3,8 @@ import json
 import pandas as pd
 import os
 
-img_root = 'C:/Users/feng/Desktop/normal'
-ann_file = 'C:/Users/feng/Desktop/Duck_inject_normalv2.json'
+img_root = ''
+ann_file = '.json'
 name2label = {}
 
 anno_result = pd.read_json(ann_file,'r')

@@ -30,4 +30,4 @@ for name in names:
     if name.split('.')[0] not in xmls:
         print(name.split('.')[0], i)
         i = i + 1
-        write_xml('./xml_demo/xml',name.split('.')[0])
+        write_xml('',name.split('.')[0])
